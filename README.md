@@ -2,8 +2,8 @@
 Please go under edit and edit this file as needed for your project
 
 # Team Name - 
-# Project Group - 
-### Group Leader - IT20212232 - Mr. Asiri Gamage (asiriRepos)
+# Project Group -REG_WE_32 
+### Group Leader - IT21806322 - Premathilaka.W.H.D (HeshaniRepos)
 ### Member 2 - 
 ### Member 3 - 
 ### Member 4 - 
