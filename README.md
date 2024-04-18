@@ -5,7 +5,7 @@ Please go under edit and edit this file as needed for your project
 # Project Group -REG_WE_32 
 ### Group Leader - IT21806322 - Premathilaka.W.H.D (HeshaniRepos)
 ### Member 2 - 
-### Member 3 - 
+### Member 3 - IT21827112 - Athukorala.A.G.K (GiwanthaAthukorala IT21827112)
 ### Member 4 - 
 
 #### Brief Description of your Solution - 
