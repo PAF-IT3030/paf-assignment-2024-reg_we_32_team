@@ -19,11 +19,11 @@ public class WorkoutPlanAPIService {
         return "Workout plan created successfully";
     }
 
-//    @PutMapping
-//    public String updateWorkoutPlanDetails(@RequestBody WorkoutPlan workoutPlan) {
-//        this.workoutPlan = workoutPlan;
-//        return "Workout plan updated successfully";
-//    }
+    @PutMapping
+    public String updateWorkoutPlanDetails(@RequestBody WorkoutPlan workoutPlan) {
+        this.workoutPlan = workoutPlan;
+        return "Workout plan updated successfully";
+    }
 
 //    @DeleteMapping("{Id}")
 //    public String deleteWorkoutPlanDetails(String Id) {
