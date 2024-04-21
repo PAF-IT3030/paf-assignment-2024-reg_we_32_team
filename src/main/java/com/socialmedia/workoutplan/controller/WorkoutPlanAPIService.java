@@ -13,11 +13,11 @@ public class WorkoutPlanAPIService {
 //                new WorkoutPlan("1", "Daily", "Pushups", "10", "10");
     }
 
-//    @PostMapping
-//    public String createWorkoutPlanDetails(@RequestBody WorkoutPlan workoutPlan) {
-//        this.workoutPlan = workoutPlan;
-//        return "Workout plan created successfully";
-//    }
+    @PostMapping
+    public String createWorkoutPlanDetails(@RequestBody WorkoutPlan workoutPlan) {
+        this.workoutPlan = workoutPlan;
+        return "Workout plan created successfully";
+    }
 
 //    @PutMapping
 //    public String updateWorkoutPlanDetails(@RequestBody WorkoutPlan workoutPlan) {
