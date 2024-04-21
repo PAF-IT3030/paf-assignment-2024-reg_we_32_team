@@ -25,9 +25,9 @@ public class WorkoutPlanAPIService {
         return "Workout plan updated successfully";
     }
 
-//    @DeleteMapping("{Id}")
-//    public String deleteWorkoutPlanDetails(String Id) {
-//        this.workoutPlan = null;
-//        return "Workout plan deleted successfully";
-//    }
+    @DeleteMapping("{Id}")
+    public String deleteWorkoutPlanDetails(String Id) {
+        this.workoutPlan = null;
+        return "Workout plan deleted successfully";
+    }
 }
