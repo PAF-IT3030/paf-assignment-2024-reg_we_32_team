@@ -10,7 +10,6 @@ public class WorkoutPlanAPIService {
     @GetMapping("{id}")
     public WorkoutPlan getWorkoutPlanDetails(String Id) {
         return workoutPlan;
-//                new WorkoutPlan("1", "Daily", "Pushups", "10", "10");
     }
 
     @PostMapping
