@@ -56,9 +56,22 @@ function Layout() {
                   Posts
                 </Link>
               ) : (
-                <Link to="/user/MealFront" className="link">
+                <Link to="/user/posts" className="link">
                   <img src={posts} alt="posts" />
-                 Meal Plan
+                  Posts
+                </Link>
+              )}
+            </div>
+            <div className="posts">
+              {role === "admin" ? (
+                <Link to="/admin/posts" className="link">
+                  <img src={posts} alt="posts" />
+                  Posts
+                </Link>
+              ) : (
+                <Link to="/user/workoutPlan" className="link">
+                  <img src={posts} alt="posts" />
+                  Workout Plan
                 </Link>
               )}
             </div>
