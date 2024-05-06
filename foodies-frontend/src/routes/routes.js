@@ -11,7 +11,7 @@ function routes() {
   return (
     <Routes>
     
-
+  {/* User Route */}
       {/* User Route */}
       <Route path="/user" element={<Layout />}>
         <Route path="/user/home" element={<Home />} />
