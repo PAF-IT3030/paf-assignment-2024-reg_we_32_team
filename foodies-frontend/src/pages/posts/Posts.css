@@ -1,0 +1,7 @@
+.upload-btn-wrapper p {
+  padding-left: 1em;
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
