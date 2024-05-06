@@ -1,0 +1,61 @@
+.profile-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.content-wrapper {
+  max-width: 800px;
+  width: 100%;
+}
+
+.profile-card-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-card-header {
+  display: flex;
+  align-items: center;
+}
+
+.user-name {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.followers-details {
+  font-size: 1rem;
+  color: #666;
+}
+
+.post-card-wrapper {
+  margin-top: 20px;
+}
+
+.post-description-input {
+  margin-bottom: 20px;
+}
+
+.upload-btn-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  display: none;
+}
+
+.upload-btn-wrapper button {
+  margin-right: 10px;
+}
+
+.post-feed {
+  margin-top: 20px;
+}
+
+.post-feed-item {
+  margin-bottom: 20px;
+}
