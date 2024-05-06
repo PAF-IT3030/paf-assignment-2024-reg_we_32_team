@@ -1,0 +1,20 @@
+.dashboard-wrapper {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+}
+.dashboard-content-wrapper {
+  height: 100vh;
+  width: 50em;
+  display: flex;
+  flex-direction: column;
+}
+
+.total-cards-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5em;
+}
