@@ -1,0 +1,109 @@
+/* Posts.css */
+
+/* Profile wrapper */
+.profile-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+/* Content wrapper */
+.content-wrapper {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+}
+
+/* Profile card wrapper */
+.profile-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Profile card header */
+.profile-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Profile card details */
+.profile-card-details {
+  margin-left: 20px;
+}
+
+/* User name */
+.user-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Followers details */
+.followers-details {
+  font-size: 1rem;
+  color: gray;
+}
+
+/* Select workout template container */
+.workout-template-container {
+  margin-bottom: 20px;
+}
+
+/* Post card wrapper */
+.post-card-wrapper {
+  margin-top: 20px;
+}
+
+/* Upload button wrapper */
+.upload-btn-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+/* Uploaded file name */
+.uploaded-file-name {
+  margin-left: 10px;
+}
+
+/* Post actions wrapper */
+.post-actions-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* Post feed container */
+.post-feed-container {
+  margin-top: 20px;
+}
+
+/* Adjust TextField styles */
+.MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+/* Adjust CardActions styles */
+.MuiCardActions-root {
+  padding: 8px 16px;
+}
+
+/* Adjust Button styles */
+.MuiButton-root {
+  min-width: 100px;
+}
+
+/* Adjust input styles */
+input[type="file"] {
+  display: none;
+}
+
+/* Adjust uploaded file name styles */
+.uploaded-file-name {
+  margin-left: 10px;
+  font-size: 14px;
+}
