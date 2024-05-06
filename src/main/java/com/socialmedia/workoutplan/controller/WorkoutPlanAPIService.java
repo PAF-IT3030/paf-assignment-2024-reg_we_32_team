@@ -30,4 +30,3 @@ public class WorkoutPlanAPIService {
         return "Workout plan deleted successfully";
     }
 }
-//workoutPlaneservice
