@@ -12,17 +12,14 @@ import java.util.List;
 @RequestMapping("/api/v1/user")
 public class FollowersController {
 
-    // Autowiring FollowerService to handle follower-related operations
     @Autowired
     private FollowerService followerService;
 
-    // GET endpoint to retrieve all followers of a user
     @GetMapping("/followers/{uid}")
     public List<User> getAllFollowers(@PathVariable int uid) {
         return followerService.getAllFollowers(uid);
     }
 
-    // POST endpoint to follow a user
     @PostMapping( "/followers/{uid}/follow/{followUID}")
     public ApiResponse followUser(@PathVariable int uid, @PathVariable int followUID) {
         return followerService.followUser(uid, followUID);

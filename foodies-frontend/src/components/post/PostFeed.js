@@ -388,7 +388,7 @@ export default function PostFeed(props) {
             </Menu>
           </div>
         }
-        title="Fit Foodies Post"
+        title="Shrimp and Chorizo Paella"
       />
       <CardMedia
         component="img"

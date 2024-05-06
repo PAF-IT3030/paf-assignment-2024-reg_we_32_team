@@ -11,16 +11,13 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
-    // Bean definition for BCryptPasswordEncoder, used for password hashing
     @Bean
     public BCryptPasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
 
-    // Override configure method to customize security configurations
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        // Disable CSRF protection, as it's not needed for this example
         http.csrf().disable();
     }
 }

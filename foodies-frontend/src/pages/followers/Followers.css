@@ -1,0 +1,12 @@
+.main_followers-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+}
+
+.followers-container {
+  margin-top: 5em;
+  width: 50em;
+  margin-left: 15em;
+}
