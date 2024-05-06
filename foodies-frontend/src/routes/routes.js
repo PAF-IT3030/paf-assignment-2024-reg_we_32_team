@@ -10,7 +10,7 @@ import Search from "../pages/search/Search";
 function routes() {
   return (
     <Routes>
-    
+    ///
 
       {/* User Route */}
       <Route path="/user" element={<Layout />}>
