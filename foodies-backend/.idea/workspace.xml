@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f98efc47-cd70-4905-b0c4-26f7dec752b5" name="Changes" comment="Create home_hover.png">
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/foodies/foodiesbackend/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foodies/foodiesbackend/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/foodies/foodiesbackend/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foodies/foodiesbackend/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/foodies/foodiesbackend/controller/FollowersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foodies/foodiesbackend/controller/FollowersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/foodies/foodiesbackend/controller/MealController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/foodies/foodiesbackend/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foodies/foodiesbackend/controller/PostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/foodies/foodiesbackend/controller/StatusController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/foodies/foodiesbackend/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/foodies/foodiesbackend/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../foodies-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../foodies-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../foodies-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../foodies-frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../foodies-frontend/src/components/post/PostFeed.js" beforeDir="false" afterPath="$PROJECT_DIR$/../foodies-frontend/src/components/post/PostFeed.js" afterDir="false" />
-    </list>
+    <list default="true" id="f98efc47-cd70-4905-b0c4-26f7dec752b5" name="Changes" comment="Create home_hover.png" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,9 +75,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.FoodiesBackendApplication.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Giwantha/User",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "G:/Project/foodies/paf-assignment-2024-reg_we_32_team/foodies-backend/pom.xml",
+    "last_opened_file_path": "G:/Project/PAF/foodies/foodies/foodies-backend/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -192,6 +179,7 @@
       <workItem from="1714975449812" duration="929000" />
       <workItem from="1714976395561" duration="1544000" />
       <workItem from="1714990734485" duration="6047000" />
+      <workItem from="1715066254102" duration="213000" />
     </task>
     <servers />
   </component>
