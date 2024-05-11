@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
-import backgroundImg from "../../assets/sign_in_background.png";
+import backgroundImg from "../../assets/1.png";
 import userService from "../../services/user.service";
 import "./SignUp.css";
 

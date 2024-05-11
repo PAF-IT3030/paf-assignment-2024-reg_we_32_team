@@ -6,7 +6,7 @@ import TextField from "@mui/material/TextField";
 import React, { useEffect, useState } from "react";
 import ReactRoundedImage from "react-rounded-image";
 import Swal from "sweetalert2";
-import MyPhoto from "../../assets/profile.jpg";
+import MyPhoto from "../../assets/2.jpg";
 import PostFeed from "../../components/post/PostFeed";
 import "./Posts.css";
 

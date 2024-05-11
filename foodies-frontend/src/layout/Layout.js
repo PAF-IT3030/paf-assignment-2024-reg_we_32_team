@@ -5,9 +5,10 @@ import followers from "../assets/followers.png";
 import home from "../assets/home.png";
 import LogoutBtn from "../assets/logout_btn.png";
 import posts from "../assets/posts.png";
-import MyPhoto from "../assets/profile.jpg";
+import MyPhoto from "../assets/2.jpg";
 import profile from "../assets/profile.png";
 import search from "../assets/search.png";
+import Logo from "../assets/Black & White Minimalist Business Logo.jpg";
 import "./Layout.css";
 
 const handleLogout = () => {
@@ -22,6 +23,9 @@ function Layout() {
     <div className="main-wrapper">
       <div className="nav-wrapper">
         <nav className="nav-container">
+          <div className="logo">
+            <img src={Logo} alt="logo" /> {/* Display the logo */}
+          </div>
           <ul>
             <div className="home">
               {role === "admin" ? (
@@ -59,6 +63,32 @@ function Layout() {
                 <Link to="/user/posts" className="link">
                   <img src={posts} alt="posts" />
                   Posts
+                </Link>
+              )}
+            </div>
+            <div className="posts">
+              {role === "admin" ? (
+                <Link to="/admin/posts" className="link">
+                  <img src={posts} alt="posts" />
+                  Posts
+                </Link>
+              ) : (
+                <Link to="/user/workouts" className="link">
+                  <img src={posts} alt="workouts" />
+                  Workouts
+                </Link>
+              )}
+            </div>
+            <div className="posts">
+              {role === "admin" ? (
+                <Link to="/admin/posts" className="link">
+                  <img src={posts} alt="posts" />
+                  Posts
+                </Link>
+              ) : (
+                <Link to="/user/meals" className="link">
+                  <img src={posts} alt="meals" />
+                  Meals
                 </Link>
               )}
             </div>

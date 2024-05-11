@@ -7,9 +7,10 @@ import Followers from "../pages/followers/Followers";
 import Home from "../pages/home/Home";
 import MyProfile from "../pages/myprofile/MyProfile";
 import Posts from "../pages/posts/Posts";
+import Workouts from "../pages/Workout/Workouts"
+import Meals from "../pages/meal/Meals"
 import Search from "../pages/search/Search";
 import Dashboard from "../pages/admin/dashboard/Dashboard";
-import Profiles from "../pages/admin/profiles/Profiles";
 
 function routes() {
   return (
@@ -24,6 +25,8 @@ function routes() {
         <Route path="/user/home" element={<Home />} />
         <Route path="/user/followers" element={<Followers />} />
         <Route path="/user/posts" element={<Posts />} />
+        <Route path="/user/workouts" element={<Workouts />} />
+        <Route path="/user/meals" element={<Meals />} />
         <Route path="/user/myprofile" element={<MyProfile />} />
         <Route path="/user/search" element={<Search />} />
       </Route>

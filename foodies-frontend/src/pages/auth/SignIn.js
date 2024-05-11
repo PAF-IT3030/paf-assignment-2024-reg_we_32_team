@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import backgroundImg from "../../assets/sign_in_background.png";
+import backgroundImg from "../../assets/1.png";
 import "./SignIn.css";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";

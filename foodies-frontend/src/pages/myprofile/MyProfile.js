@@ -13,7 +13,7 @@ import React, { useEffect, useState } from "react";
 import ReactRoundedImage from "react-rounded-image";
 import { useLocation } from "react-router-dom";
 import Swal from "sweetalert2";
-import MyPhoto from "../../assets/profile.jpg";
+import MyPhoto from "../../assets/2.jpg";
 import "./MyProfile.css";
 
 function MyProfile(props) {
